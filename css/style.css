@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 1920px;
+  height: 1366px;
+  overflow-x: hidden;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+
+body header {
+  width: 1920px;
+  height: 50px;
+  background-color: #023a5c;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .logo {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+body header .logo img {
+  height: calc(2 * 100%);
+}
+
+body header ul {
+  width: 40%;
+  margin-left: 0px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+body header ul li {
+  margin: 0px 10px 0px 10px;
+}
+
+body header ul li a {
+  color: #fff;
+}
+
+body .search-bar {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 30px;
+  color: #000;
+}
+
+main {
+  padding: 50px 50px 0px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+}
+
+main #menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+}
+
+main #menu .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 30px;
+}
+
+main #menu .menu-list .menu {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 2px gray dotted;
+}
+
+main #menu .menu-list .menu ul li {
+  margin-bottom: 70px;
+}
+
+main #menu .menu-list i {
+  margin-bottom: 10px;
+}
+
+main #menu .hidden-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+main #menu .hidden-menu i {
+  color: grey;
+  font-size: 20px;
+}
+
+main .main-text {
+  width: calc(100% - 150px);
+}
+
+main .main-text .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+main .main-text .text .title {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px gray dotted;
+  width: 60%;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+main .main-text .text .title i {
+  font-size: 60px;
+}
+
+main .main-text .text .introduction {
+  width: 60%;
+  text-align: left;
+}
+
+main .main-text .text .columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main-text .text .columns .column {
+  margin: 10px;
+  width: 30%;
+}
+
+main .main-text .text .columns .column img {
+  width: 100%;
+}
+
+main .main-text .text .columns .column p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+footer {
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #023a5c;
+}
+/*# sourceMappingURL=style.css.map */
